@@ -8,19 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
+    <div id="image">
+        <img src="motorcycle.png" alt="motorcycle">
     </div>
-    <div>
-
+    <div id="content">
+        <div>
+            <h3>Welcome to the motorcycle enthusiast community!</h3>
+            <p>Sign up to keep yourself up to date with everything that's new with motorcycles.</p>
+        </div>
+        <div id="formdiv">
+            <form id="signup">
+                <h2>Let's do this</h2>
+                <section>
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="password">
+                    </div>
+                    <div>
+                        <label for="conf_pwd">CONFIRM PASSWORD</label>
+                        <input type="password" id="conf_pwd" name="conf_pwd">
+                    </div>
+                </section>
+            </form>
+        </div>
+        <div>
+            <button form="signup">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
